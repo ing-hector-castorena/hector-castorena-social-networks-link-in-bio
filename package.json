@@ -1,0 +1,27 @@
+{
+  "name": "social-networks-link-in-bio",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ing-hector-castorena/hector-castorena-social-networks-link-in-bio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ing-hector-castorena/hector-castorena-social-networks-link-in-bio/issues"
+  },
+  "homepage": "https://github.com/ing-hector-castorena/hector-castorena-social-networks-link-in-bio#readme",
+  "dependencies": {
+    "gsap": "^3.15.0"
+  },
+  {
+    "liveServer.settings.fullReload": true
+  }
+}
