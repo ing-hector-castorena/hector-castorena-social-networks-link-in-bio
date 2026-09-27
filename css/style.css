@@ -1,16 +1,15 @@
 /* Variables de diseño con la paleta institucional del PAN */
 :root {
-  --color-bg: #0d1f3a;            /* Fondo gris claro para que resalte la tarjeta */
-  --color-card: #ffffff;          /* Fondo blanco de la tarjeta */
-  --color-primary: #0056B3;       /* Azul oficial del PAN */
-  --color-primary-hover: #004085; /* Azul PAN oscuro para efectos interactivos */
-  --color-text-dark: #1c2833;     /* Texto principal de alta legibilidad */
-  --color-text-muted: #627281;    /* Texto secundario de la ubicación y bio */
+  --color-bg: #0d1f3a;            
+  --color-card: #ffffff;          
+  --color-primary: #0056B3;       
+  --color-primary-hover: #004085; 
+  --color-text-dark: #1c2833;    
+  --color-text-muted: #627281;   
   
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Reset básico para asegurar consistencia */
 * {
   margin: 0;
   padding: 0;
@@ -26,18 +25,16 @@ body {
   min-height: 100vh;
 }
 
-/* Contenedor principal de la tarjeta */
 .profile-card {
   background-color: var(--color-card);
   width: 100%;
   max-width: 355px;
   padding: 40px 32px;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 86, 179, 0.1); /* Sutil sombra con tinte azul */
+  box-shadow: rgba(240, 46, 170, 0.31) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
   text-align: center;
 }
 
-/* Cabecera del perfil */
 .profile-header {
   display: flex;
   flex-direction: column;
@@ -62,12 +59,11 @@ body {
 }
 
 .profile-location {
-  color: var(--color-primary); /* Ubicación destacada en azul */
+  color: var(--color-primary); 
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-/* Biografía corta */
 .profile-bio {
   color: var(--color-text-muted);
   font-size: 0.95rem;
@@ -76,7 +72,6 @@ body {
   font-style: italic;
 }
 
-/* Lista de enlaces */
 .profile-links ul {
   list-style: none;
   display: flex;
@@ -96,7 +91,6 @@ body {
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-/* Estados interactivos de los botones */
 .profile-links a:hover {
   background-color: var(--color-primary-hover);
 }
