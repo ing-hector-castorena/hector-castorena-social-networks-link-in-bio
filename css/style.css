@@ -1,4 +1,4 @@
-/* Variables de diseño con la paleta institucional del PAN */
+
 :root {
   --color-bg: #0d1f3a;            
   --color-card: #ffffff;          
@@ -48,7 +48,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 3px solid var(--color-primary); /* Borde azul institucional */
+  border: 3px solid var(--color-primary); 
 }
 
 .profile-name {
@@ -76,7 +76,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px; /* Espaciado idéntico entre los botones */
+  gap: 12px;
 }
 
 .profile-links a {
@@ -96,5 +96,5 @@ body {
 }
 
 .profile-links a:active {
-  transform: scale(0.98); /* Pequeño efecto de hundimiento al hacer clic */
+  transform: scale(0.98);
 }
