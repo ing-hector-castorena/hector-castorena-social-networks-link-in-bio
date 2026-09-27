@@ -8,13 +8,7 @@
   --color-text-muted: #627281;    /* Texto secundario de la ubicación y bio */
   --color-bio-button: rgba(182, 2, 206, 0.3) 5px 5px;
   --color-card-shadow: rgba(240, 46, 170, 0.31) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
-  --color-bg: #0d1f3a;            
-  --color-card: #ffffff;          
-  --color-primary: #0056B3;       
-  --color-primary-hover: #004085; 
-  --color-text-dark: #1c2833;    
-  --color-text-muted: #627281;   
-  
+ 
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
