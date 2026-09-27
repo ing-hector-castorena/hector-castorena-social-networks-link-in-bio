@@ -1,5 +1,6 @@
-/* Variables de diseño con la paleta institucional del PAN */
+
 :root {
+<<<<<<< HEAD
   --color-bg: #0d1f3a;            /* Fondo gris claro para que resalte la tarjeta */
   --color-card: #ffffff;          /* Fondo blanco de la tarjeta */
   --color-primary: #0056B3;       /* Azul oficial del PAN */
@@ -8,11 +9,18 @@
   --color-text-muted: #627281;    /* Texto secundario de la ubicación y bio */
   --color-bio-button: rgba(182, 2, 206, 0.3) 5px 5px;
   --color-card-shadow: rgba(240, 46, 170, 0.31) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+=======
+  --color-bg: #0d1f3a;            
+  --color-card: #ffffff;          
+  --color-primary: #0056B3;       
+  --color-primary-hover: #004085; 
+  --color-text-dark: #1c2833;    
+  --color-text-muted: #627281;   
+>>>>>>> 61f8013585a31ef0d50b64bc59615116b478b82e
   
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Reset básico para asegurar consistencia */
 * {
   margin: 0;
   padding: 0;
@@ -28,19 +36,21 @@ body {
   min-height: 100vh;
 }
 
-/* Contenedor principal de la tarjeta */
 .profile-card {
   background-color: var(--color-card);
   width: 100%;
   max-width: 355px;
   padding: 40px 32px;
   border-radius: 16px;
+<<<<<<< HEAD
   box-shadow: var(--color-card-shadow);
+=======
+  box-shadow: rgba(240, 46, 170, 0.31) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+>>>>>>> 61f8013585a31ef0d50b64bc59615116b478b82e
   text-align: center;
 
 }
 
-/* Cabecera del perfil */
 .profile-header {
   display: flex;
   flex-direction: column;
@@ -54,9 +64,13 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
+<<<<<<< HEAD
   border: 3px solid var(--color-primary); /* Borde azul institucional */
   box-shadow: rgba(240, 46, 170, 0.31) 5px 5px;
 
+=======
+  border: 3px solid var(--color-primary); 
+>>>>>>> 61f8013585a31ef0d50b64bc59615116b478b82e
 }
 
 .profile-name {
@@ -67,12 +81,11 @@ body {
 }
 
 .profile-location {
-  color: var(--color-primary); /* Ubicación destacada en azul */
+  color: var(--color-primary); 
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-/* Biografía corta */
 .profile-bio {
   color: var(--color-text-muted);
   font-size: 0.95rem;
@@ -81,12 +94,11 @@ body {
   font-style: italic;
 }
 
-/* Lista de enlaces */
 .profile-links ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px; /* Espaciado idéntico entre los botones */
+  gap: 12px;
 }
 
 .profile-links a {
@@ -103,11 +115,10 @@ body {
 
 }
 
-/* Estados interactivos de los botones */
 .profile-links a:hover {
   background-color: var(--color-primary-hover);
 }
 
 .profile-links a:active {
-  transform: scale(0.98); /* Pequeño efecto de hundimiento al hacer clic */
+  transform: scale(0.98);
 }
